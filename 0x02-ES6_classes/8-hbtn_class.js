@@ -4,6 +4,7 @@ export default class HolbertonClass {
     this._location = location;
   }
 
+  // eslint-disable-next-line consistent-return
   [Symbol.toPrimitive](hint) {
     if (hint === 'string') {
       return this._location;
