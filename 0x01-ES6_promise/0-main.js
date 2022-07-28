@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import getResponseFromAPI from "./0-promise.js";
 
 

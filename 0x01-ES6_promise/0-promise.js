@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-export function getResponseFromAPI()
+export default function getResponseFromAPI()
 {
     // response = new Promise((resolve, reject) => {
     //   resolve()  
