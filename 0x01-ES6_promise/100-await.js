@@ -5,9 +5,9 @@ async function asyncUploadUser() {
   try {
     const user = await createUser();
     const photo = await uploadPhoto();
-    res = { photo, user }
+    res = { photo, user };
   } catch (err) {
-    res = { photo: null, user: null}
+    res = { photo: null, user: null };
   }
   return res;
 }
