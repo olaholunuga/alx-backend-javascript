@@ -2,7 +2,7 @@ export default function getListStudents() {
   return [
     {
       id: 1,
-      firstName: 'Guilaume',
+      firstName: 'Guillaume',
       location: 'San Francisco',
     },
     {
